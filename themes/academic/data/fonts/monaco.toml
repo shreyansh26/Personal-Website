@@ -1,0 +1,11 @@
+# Font style metadata
+name = "Monaco"
+
+# Optional Google font URL
+google_fonts = "Anonymous+Pro|Roboto+Slab|Work+Sans|Roboto+Mono|Montserrat:400,700|Merriweather"
+
+# Font families
+heading_font = "Lato"
+body_font = "Merriweather"
+nav_font = "Roboto"
+mono_font = "Roboto Mono"

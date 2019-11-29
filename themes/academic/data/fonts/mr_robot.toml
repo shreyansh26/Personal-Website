@@ -1,0 +1,12 @@
+# Font style metadata
+name = "Mr Robot"
+
+# Optional Google font URL
+google_fonts = "B612+Mono:400,700|Orbitron:400,700|Space+Mono:400,700"
+
+# Font families
+# Orbitron
+heading_font = "Space Mono"
+body_font = "B612 Mono"
+nav_font = "B612 Mono"
+mono_font = "B612 Mono"
