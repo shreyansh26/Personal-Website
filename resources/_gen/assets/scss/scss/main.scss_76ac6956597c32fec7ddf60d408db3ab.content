@@ -7082,7 +7082,7 @@ ul.task-list {
 
 /* Navigation bar text */
 .navbar-light {
-  font-family: Lato, sans-serif;
+  font-family: Open Sans, sans-serif;
   font-weight: 400;
   line-height: 1.25;
   text-rendering: optimizeLegibility; }
@@ -7165,7 +7165,7 @@ figcaption.numbered {
 
 pre,
 code {
-  font-family: Lato, monospace;
+  font-family: Inconsolata, monospace;
   color: #c7254e;
   background-color: #f9f2f4; }
 
