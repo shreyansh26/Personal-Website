@@ -2,10 +2,11 @@
 name = "Monaco"
 
 # Optional Google font URL
-google_fonts = "Anonymous+Pro|Roboto+Slab|Work+Sans|Roboto+Mono|Montserrat:400,700|Merriweather"
+google_fonts = "B612+Mono:400,700|Orbitron:400,700|Space+Mono:400,700|Lato"
 
 # Font families
-heading_font = "Lato"
-body_font = "Merriweather"
-nav_font = "Roboto"
-mono_font = "Roboto Mono"
+# Orbitron
+heading_font = "Space Mono"
+body_font = "Lato"
+nav_font = "Lato"
+mono_font = "Lato"
