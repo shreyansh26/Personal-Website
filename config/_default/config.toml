@@ -37,7 +37,7 @@ enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
 ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
-googlefonts = "//fonts.googleapis.com/css?family=Inconsolata"
+googlefonts = ["Droid Sans", "Fira Mono"]
 fontcode = "Inconsolata"
 
 [outputs]

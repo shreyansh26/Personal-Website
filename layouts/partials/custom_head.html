@@ -1,0 +1,18 @@
+{{ range .Site.Params.googlefonts }}
+       <link rel="stylesheet" {{ printf "href=\"//fonts.googleapis.com/css?family=%s\"" . | safeHTMLAttr }} type="text/css" media="all" />
+{{ end }}
+<!-- <link rel="stylesheet" href="/css/custom_style.css" type="css" media="all" /> -->
+<style>
+
+@font-face {
+    font-family: monaco123;
+    font-weight: 100%;
+    font-style: normal;
+    src: url("/fonts/MONACO.TTF");
+} 
+
+code {
+    font-family: monaco123;
+    font-size: 60%;
+}
+</style>
