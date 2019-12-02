@@ -3,7 +3,7 @@ title: "NeverLAN CTF 2018 Writeups"
 authors: ["Shreyansh Singh"]
 date: 2018-02-27T08:55:58.711Z
 lastmod: 2019-11-29T21:04:19+05:30
-tags: [ctf, information security, infosec]
+tags: [ctf, information security, infosec, writeups]
 categories: [Information Security]
 
 summary: "These are the writeups of the problems I solved over the weekend for the NeverLAN CTF 2018."

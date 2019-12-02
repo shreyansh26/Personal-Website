@@ -8,7 +8,7 @@ description: ""
 
 subtitle: "The Capture the Flag event for Codefest’19 was hosted from 8 pm, 23rd August 2019 to 12 noon, 24th August 2019 on Hackerrank."
 
-tags: [ctf, information security, infosec]
+tags: [ctf, information security, infosec, writeups]
 categories: [Information Security]
 
 featured: false

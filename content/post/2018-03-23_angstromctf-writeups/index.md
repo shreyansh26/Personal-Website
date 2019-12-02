@@ -9,7 +9,7 @@ description: ""
 subtitle: "These are the writeups to the problems I solved during the AngstromCTF."
 
 
-tags: [ctf, information security, infosec]
+tags: [ctf, information security, infosec, writeups]
 categories: [Information Security]
 
 featured: false

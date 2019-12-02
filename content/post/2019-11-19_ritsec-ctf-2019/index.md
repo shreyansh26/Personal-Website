@@ -8,7 +8,7 @@ description: ""
 
 subtitle: "My writeups for RITSEC CTF 2019. A bit late, but I hope this helps someone!"
 
-tags: [ctf, information security, infosec]
+tags: [ctf, information security, infosec, writeups]
 categories: [Information Security]
 
 featured: false
