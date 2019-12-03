@@ -28,7 +28,7 @@ date_format = "Jan 2006"
   description = "Won a student scholarship to attend BlackHat Asia 2019, Singapore"
 
 [[item]]
-  organization = "Workshop on Multilingual Surface Realsisation, ACL"
+  organization = "Workshop on Multilingual Surface Realization, ACL"
   organization_url = "http://taln.upf.edu/pages/msr2018-ws/"
   title = "Paper accepted!"
   url = "https://www.aclweb.org/anthology/W18-3603/"
