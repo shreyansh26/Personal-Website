@@ -1,10 +1,10 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "TUCTF 2019 - Pwn Challenges"
+title: "TUCTF 2019 - Pwn & Rev Challenges"
 author: "Shreyansh Singh"
 date: 2019-12-02T19:39:57+05:30
-lastmod: 2019-12-02T19:39:57+05:30
+lastmod: 2019-12-05T19:39:57+05:30
 featured: false
 draft: false
 
@@ -36,6 +36,8 @@ projects: []
 I couldn't give much time to the CTF because of some college work, but I gave a shot at the PWN challenges. The challenges became offline later but I still decided to work on the exploit scripts to make them work locally.
 
 ---
+
+# Pwn Challenges
 
 ## thefirst - 379 pts
 
@@ -150,6 +152,121 @@ p.sendlineafter('? ', payload)
 p.interactive()
 ```
 
-That's all for now :wave:.
+---
 
-I'm working on a few more of the PWN challenges and also on the REV ones which I found very interesting. Will be posting their writeups too.
+# Rev Challenges
+
+## faker - 400 pts
+
+If we open the binary in Ghidra, we see that there are calls to different functions, namely _A_, _B_ and _C_, which depend on the user input. But on trying them, we get fake flags.
+
+{{< figure src="/post/2019-12-02_tuctf-pwn-2019/images/faker.png" >}}
+
+But all of them have a common structure, they have a call to `printFlag` with a string. 
+
+{{< figure src="/post/2019-12-02_tuctf-pwn-2019/images/faker_1.png" >}}
+
+Also in the functions list, we see that there is a function named `thisone`. First we take a look at `printFlag` function.
+
+{{< figure src="/post/2019-12-02_tuctf-pwn-2019/images/faker_2.png" >}}
+
+There can be two ways to solve this challenge.
+
+### Method 1 - Static
+
+Write a script to emulate the functionality of the `printFlag` function.
+
+```python
+def printFlag(s):
+    s2 = ""
+    for i in range(len(s)):
+        x = ((((ord(s[i]) ^ 0xf) - 0x1d) * 8) % 0x5f) + 0x20
+        s2 += chr(x)
+    print(s2)
+
+printFlag("\\PJ\\fC|)L0LTw@Yt@;Twmq0Lw|qw@w2$a@0;w|)@awmLL|Tw|)LwZL2lhhL0k")
+```
+
+This gives us the flag - `TUCTF{7h3r35_4lw4y5_m0r3_70_4_b1n4ry_7h4n_m3375_7h3_d3bu663r}`
+
+### Method 2 - Dynamic
+
+Here set a breakpoint in main and then run the following commads in GDB.
+
+```bash
+(gdb) info functions  # get address of printFlag function
+(gdb) set $rip=0x000055555555534b   # i.e. to the address of the function
+(gdb) c
+```
+
+This will print the flag.
+
+---
+
+## core - 400 pts
+
+We a re provided a core dump and a C file. The C file looks like this
+
+```c
+#include <stdio.h>  // prints
+#include <stdlib.h> // malloc
+#include <string.h> // strcmp
+#include <unistd.h> // read
+#include <fcntl.h>  // open
+#include <unistd.h> // close
+#include <time.h>   // time
+
+#define FLAG_LEN 64
+char flag[FLAG_LEN];
+
+void xor(char *str, int len) {
+	for (int i = 0; i < len; i++) {
+		str[i] = str[i] ^ 1;
+	}
+}
+
+int main() {
+    setvbuf(stdout, NULL, _IONBF, 20);
+    setvbuf(stdin, NULL, _IONBF, 20);
+
+	// Read the flag
+	memset(flag, 0, FLAG_LEN);
+	printf("> ");
+	int len = read(0, flag, FLAG_LEN);
+
+	xor(flag, len);
+
+	char buf[32];
+	read(0, buf, 128);
+
+    return 0;
+}
+```
+
+Basically we are XORing the input string with 1. We assume that flag is in the standard format, i.e. begins with `TUCTF`. So we pre-calculate, the starting of the string that should be in memory.
+
+`TUCTF` => `UTBUG`
+
+We use `xxd` to view the core.
+
+{{< figure src="/post/2019-12-02_tuctf-pwn-2019/images/core.png" >}}
+
+We find something interesting in the memory. On decoding
+
+```python
+core_string = "55544255477a623173325e65746c713e5e4f327732735e69323573655e31675e7831747c".decode('hex')
+
+flag = ""
+
+for i in core_string:
+    flag += chr(ord(i) ^ 1)
+
+print(flag)
+```
+
+The flag - `TUCTF{c0r3_dump?_N3v3r_h34rd_0f_y0u}`
+
+---
+
+
+That's all for now :wave:.
