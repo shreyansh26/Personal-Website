@@ -12,7 +12,7 @@ description: ""
 
 subtitle: "My writeups for some of the PWN challenges of TUCTF 2019."
 
-tags: [ctf, information security, infosec, writeups]
+tags: [rev, pwn, ctf, information security, infosec, writeups]
 categories: [Information Security]
 
 
