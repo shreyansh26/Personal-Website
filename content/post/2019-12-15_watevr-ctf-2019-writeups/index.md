@@ -28,7 +28,7 @@ image:
 projects: []
 ---
 
-This was a very fun CTF. Kudos to the organizers. I loved the problems, very interesting as well as challenging. I played this CTF with my team, [Abs0lut3Pwn4g3](https://ctftime.org/team/72103).
+This was a very fun CTF. Kudos to the organizers. I loved the problems, very interesting as well as challenging. I played this CTF with my team, [Abs0lut3Pwn4g3](https://ctftime.org/team/72103). Our final rank was 54.
 
 ---
 
