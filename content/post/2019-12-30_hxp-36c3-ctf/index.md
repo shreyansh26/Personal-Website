@@ -84,7 +84,7 @@ We have to pay attenton to
 i = ((int) (Math.pow((double) (instance.get(3) * instance.get(1)), 2.0d) % 999983.0d))
 ```
 
-For 29th Decmember 2019, this value is a constant and equal to `76429`. Entering this, we get access to the app. Next on the top right corner of the app, there are options namely Sales, Leadership, Smart Profuction (the current page) and Service Roadmap. Each of these (except Smart Production) require their own activation codes. We deg deeper into the app's code for this.
+For 29th December 2019, this value is a constant and equal to `76429`. Entering this, we get access to the app. Next on the top right corner of the app, there are options namely Sales, Leadership, Smart Profuction (the current page) and Service Roadmap. Each of these (except Smart Production) require their own activation codes. We deg deeper into the app's code for this.
 
 One thing I note is that on entering a wrong code, the following message is shown as a Toast - "Ungültiger Aktivierungscode". So, I used Jadx's Text Search to find all instances of this. We find this
 
