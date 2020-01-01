@@ -22,6 +22,9 @@ copyright = "&copy; Shreyansh Singh {year}"
 # Name of Academic theme folder in `themes/`.
 theme = "academic"
 
+[markup.goldmark.renderer]
+unsafe= true
+
 # Get last modified date for content from Git?
 enableGitInfo = false
 
