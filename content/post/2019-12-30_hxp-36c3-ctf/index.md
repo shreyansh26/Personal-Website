@@ -226,7 +226,7 @@ I had great fun solving this CTF. Learnt a ton! This was my last CTF and blog po
 <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
 
 <!-- <button style="background-color: #70ab17; color: #1770AB" id="openpopup">Subscribe to my posts!</button> -->
-<div class="button_cont" align="center"><a id="openpopup" class="example_a">Subscribe to my posts!</a></div>
+<div class="button_cont" align="center"><button id="openpopup" class="example_a">Subscribe to my posts!</button></div>
 
 <style>
     .example_a {
