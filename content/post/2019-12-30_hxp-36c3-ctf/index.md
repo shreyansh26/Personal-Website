@@ -231,9 +231,10 @@ I had great fun solving this CTF. Learnt a ton! This was my last CTF and blog po
 
 function showMailingPopUp() {
     window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us4.list-manage.com","uuid":"0b10ac14f50d7f4e7d11cf26a","lid":"667a1bb3da","uniqueMethods":true}) })
+
+    document.cookie = "MCPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
 }
 
-document.cookie = "MCPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
 document.getElementById("openpopup").onclick = function() {showMailingPopUp()};
 
 </script>
