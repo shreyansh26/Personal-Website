@@ -224,6 +224,17 @@ I had great fun solving this CTF. Learnt a ton! This was my last CTF and blog po
 2020 will see a lot more blog posts, writeups and some interesting security research too. Till then, sayonara :wave:.
 
 <button id="openpopup">Subscribe to my posts!</button>
+<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+
+<script type="text/javascript">
+
+function showMailingPopUp() {
+    window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us4.list-manage.com","uuid":"0b10ac14f50d7f4e7d11cf26a","lid":"667a1bb3da","uniqueMethods":true}) })
+}
+
+document.getElementById("openpopup").onclick = function() {showMailingPopUp()};
+
+</script>
 
 &nbsp;  
 
