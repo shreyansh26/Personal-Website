@@ -221,11 +221,36 @@ The flag is - `junior-alles_nur_kuchenblech_mafia!!`
 
 I had great fun solving this CTF. Learnt a ton! This was my last CTF and blog post for 2019.
 
-2020 will see a lot more blog posts, writeups and some interesting security research too. Till then, sayonara :wave:.
+2020 will see a lot more blog posts, writeups and some interesting security research too. Till then, sayonara.
 
 <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
 
-<button id="openpopup">Subscribe to my posts!</button>
+<!-- <button style="background-color: #70ab17; color: #1770AB" id="openpopup">Subscribe to my posts!</button> -->
+<div class="button_cont" align="center"><a id="openpopup" class="example_a" target="_blank" rel="nofollow noopener">Subscribe to my posts!</a></div>
+
+<style>
+    .example_a {
+        color: #fff !important;
+        text-transform: uppercase;
+        text-decoration: none;
+        background: #3f51b5;
+        padding: 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        display: inline-block;
+        border: none;
+        transition: all 0.4s ease 0s;
+    }
+
+    .example_a:hover {
+        background: #434343;
+        letter-spacing: 1px;
+        -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+        -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+        box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+        transition: all 0.4s ease 0s;
+    }
+</style>
 
 
 <script type="text/javascript">
