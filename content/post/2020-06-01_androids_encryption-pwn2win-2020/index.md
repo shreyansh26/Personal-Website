@@ -114,7 +114,6 @@ def decrypt(txt, key, iv):
     assert len(key) == BLOCK_SIZE, f'Invalid key size'
     assert len(iv) == BLOCK_SIZE, 'Invalid IV size'
     assert len(txt) % BLOCK_SIZE == 0, 'Invalid plaintext size'
-    # global key2, iv2
     bs = len(key)
     blocks = to_blocks(txt)
     ctxt = b''
