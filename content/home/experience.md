@@ -24,8 +24,8 @@ date_format = "Jan 2006"
   company_url = "https://www.mastercard.co.in/en-in.html"
   location = "Gurgaon, India"
   date_start = "2020-08-04"
-  <!-- date_end = "2019-07-12" -->
-  <!-- description = """""" -->
+  date_end = ""
+  description = """"""
 
 [[experience]]
   title = "Student Trainee"
