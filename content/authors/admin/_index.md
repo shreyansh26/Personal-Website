@@ -10,19 +10,19 @@ authors:
 superuser: true
 
 # Role/position
-role: Senior Undergraduate in Computer Science and Engineering 
+role: AI Software Engineer
 
 # Organizations/Affiliations
 organizations:
-- name: IIT (BHU) Varanasi
+- name: Mastercard
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include information security, specially binary analysis and also application of Machine Learning in security.
+bio: My research interests include information security, especially binary analysis and also the application of Machine Learning in security.
 
 interests:
 - Reverse Engineering
-- Binary Exploitation
+- Cryptography
 - Machine Learning
 - Natural Language Processing
 
@@ -30,7 +30,7 @@ education:
   courses:
   - course: B.Tech in Computer Science
     institution: Indian Institute of Technology (BHU), Varanasi
-    year: 2016 (Ongoing)
+    year: 2016 - 2020
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -68,8 +68,8 @@ user_groups:
 - Visitors
 ---
 
-I am currently in my final year pursuing B.Tech in Computer Science and Engineering from IIT (BHU) Varanasi. 
+I am working as an AI Software Engineer at Mastercard. My team is based in Gurgaon, India and is a relatively new team working on leveraging AI to get certain insights and automating stuff to make the transactions world a smarter place.
 
-My B.Tech advisor is [Prof. K.K. Shukla](https://iitbhu.ac.in/dept/cse/people/kkshuklacse). Currently, I am working on privacy-preserving Machine Learning and its application in the medical industry. Previously I have also worked with him on Adversarial Machine Learning and Malware classification problems. In summer 2019, I was an intern at [Samsung Research Institute - Bangalore](https://research.samsung.com/sri-b), working on mobility in 5G networks. I also worked as a research intern at the [C3i Institute, Indian Institute of Technology Kanpur](https://security.cse.iitk.ac.in/) on Malware Detection for Linux, in winter 2018.  In summer 2018, I was a Data Science intern at [Innoplexus, Pune (India)](https://www.innoplexus.com/), working with the Computer Vision team. I have also worked with [Dr. Anil Kumar Singh](https://www.iitbhu.ac.in/dept/cse/people/aksinghcse), on sentiment analysis on product reviews and natural language generation.
+I did my B.Tech in Computer Science and Engineering from IIT (BHU) Varanasi. My B.Tech advisor was [Prof. K.K. Shukla](https://iitbhu.ac.in/dept/cse/people/kkshuklacse). I worked on privacy-preserving Machine Learning and its application in the medical industry. Previously I had also worked with him on Adversarial Machine Learning and Malware classification problems. In summer 2019, I was an intern at [Samsung Research Institute - Bangalore](https://research.samsung.com/sri-b), working on mobility in 5G networks. I also worked as a research intern at the [C3i Institute, Indian Institute of Technology Kanpur](https://security.cse.iitk.ac.in/) on Malware Detection for Linux, in winter 2018.  In summer 2018, I was a Data Science intern at [Innoplexus, Pune (India)](https://www.innoplexus.com/), working with the Computer Vision team. I have also worked with [Dr. Anil Kumar Singh](https://www.iitbhu.ac.in/dept/cse/people/aksinghcse), on sentiment analysis on product reviews and natural language generation.
 
-When not working on research, I enjoy playing CTFs ([wr47h](https://ctftime.org/team/34870)). I recently joined [Abs0lut3Pwn4g3](https://ctftime.org/team/72103), currently the 8th ranked CTF team in India. I also enjoy writing, reading and competitive coding.
+When not working on research, I enjoy playing CTFs ([wr47h](https://ctftime.org/team/34870)). I am a part of [Abs0lut3Pwn4g3](https://ctftime.org/team/72103), currently one of the top ranked CTF teams in India. I also enjoy competitive programming and reading novels.
