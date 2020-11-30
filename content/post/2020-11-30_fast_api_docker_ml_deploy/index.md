@@ -2,7 +2,7 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Quick tutorial to deploy your ML models using FastAPI and Docker"
-subtitle: "Just a quick and dirty tutorial to set up a small scale deployment for your ML or DL model"
+subtitle: "Just a quick tutorial to set up a small scale deployment for your ML or DL model"
 authors: ["Shreyansh Singh"]
 tags: [ml, deployment, web]
 categories: [Machine Learning]
