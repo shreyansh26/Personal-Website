@@ -68,7 +68,7 @@ Since the goal here is just to make a POC deployment, we make a very simple mode
 
 The model is saved in a pickle format. We will load the saved model to do predictions later.
 
-Now, along with this, we have to ensure that when the API will receive the paprameters, it recieves them in a proper format, for example, a list of lists in which each list has 4 float values for the features.
+Now, along with this, we have to ensure that when the API will receive the paprameters, it receives them in a proper format, for example, a list of lists in which each list has 4 float values for the features.
 
 For that we use [Pydantic](https://github.com/samuelcolvin/pydantic).
 
@@ -95,7 +95,7 @@ Here, we define the name of our app.
 app = FastAPI(title="Iris Classifier API", description="API for Iris classification using ML", version="1.0")
 ```
 
-Next, we set up loggong for our API as well, to ensure we can see WHEN something went wrong, in case something does go wrong.
+Next, we set up logging for our API as well, to ensure we can see WHEN something went wrong, in case something does go wrong.
 
 ```python
 # Initialize logging
