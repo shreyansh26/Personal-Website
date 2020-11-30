@@ -136,16 +136,16 @@ For that we create a Dockerfile.
 
 {{< gist shreyansh26 f4d7a32e2790b32a8f18dbcb583cc817>}}
 
-Basically , first we install the requirements (Python packages) we run the app on port 8000 in the Docker container, and expose that port to access it from our local machine.
+Basically, the Dockerfile instructs Docker to first create a `/app` folder inside the Docker **python3.8** base image, install the requirements (Python packages) and then run the app on port 8000 in the Docker container, and expose that port to access it from our local machine.
 
-Now, it is bascially just two commands - 
+Now, we just have to run two commands - 
 
 ```
-$ docker build -t iris-ml .
-$ docker run -d -p 8000:8000 --name iris-api iris-ml
+$ docker build -t iris-ml .  # Build the Docker image
+$ docker run -d -p 8000:8000 --name iris-api iris-ml   # Run the Docker image as container
 ```
 
-The requirements.txt gor the project are also listed below - 
+The requirements.txt for the project are also listed below - 
 
 ```
 numpy==1.18.4
@@ -158,7 +158,7 @@ uvicorn==0.11.8
 
 Now you can head to [http://localhost:8000/docs]([http://localhost:8000/docs]) to test the API.
 
-If you see something the dashboard and the responses similar to the screenhots above, you have most likely deployd it successfully.
+If you see the dashboard and the responses similar to the screenshots above, you have most likely deployed it successfully.
 
 ### Congratulations!!
 
