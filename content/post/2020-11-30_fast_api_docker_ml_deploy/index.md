@@ -29,7 +29,7 @@ projects: []
 
 The goal of this blog post is to make an API to get predictions from a pre-trained ML model and how we can do that in a fast manner using [FastAPI](https://fastapi.tiangolo.com/) and also be able to ship it using [Docker](https://www.docker.com/).
 
-*This method does not scale well as it does not support caching and cannot handle much load. However, this can be a good instructional post on how you can deploy those models and use them for small low-scale projects, say a hackathon*
+*This method does not scale well as it does not support caching and cannot handle much load. However, this can be a good instructional post on how you can deploy those models and use them for small low-scale projects, say a hackathon.*
 
 In the tutorial we will use the very famous Iris dataset. The dataset has 4 features -
 
@@ -62,7 +62,7 @@ ml-deployment/
 
 ## Model Training
 
-Since the goal here is just to make a POC deployment, we make a very simple model trained on the Iris dataset. Some very basic knowledge of Scikit-learn libraries will be needed to understnad the code.
+Since the goal here is just to make a POC deployment, we make a very simple model trained on the Iris dataset. Some very basic knowledge of Scikit-learn libraries will be needed to understand the code.
 
 {{< gist shreyansh26 fcb121e5c428895be24e58edec1c3ebe>}}
 
