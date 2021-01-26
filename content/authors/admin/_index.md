@@ -21,9 +21,9 @@ organizations:
 bio: My research interests include information security, especially binary analysis and also the application of Machine Learning in security.
 
 interests:
+- Machine Learning
 - Reverse Engineering
 - Cryptography
-- Machine Learning
 - Natural Language Processing
 
 education:
