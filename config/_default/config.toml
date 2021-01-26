@@ -40,7 +40,7 @@ enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
 ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
-googlefonts = ["Droid Sans", "Fira Mono"]
+googlefonts = ["Droid Sans", "Fira Mono", "Anonymous Pro"]
 fontcode = "Inconsolata"
 
 [outputs]

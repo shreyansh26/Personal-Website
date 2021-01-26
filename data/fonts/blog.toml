@@ -1,0 +1,10 @@
+# Font style metadata
+name = "Blog"
+
+# Optional Google font URL
+google_fonts = "Lato|Inconsolata|Space+Mono|Anonymous+Pro:400"
+
+heading_font = "Inconsolata"
+body_font = "Anonymous Pro"
+nav_font = "Anonymous Pro"
+mono_font = "Anonymous Pro"
