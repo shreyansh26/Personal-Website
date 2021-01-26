@@ -163,7 +163,7 @@ The code for this section is present [on my Github](https://github.com/shreyansh
 
 ## The End
 
-That is all for now. I hope that this tutorial will help the reader get an idea of these frameworks for client-side model deployment and one can also use my code as a broilerplate for setting up webapps of your own for deploying ML models using these frameworks.
+That is all for now. I hope that this tutorial will help the reader get an idea of these frameworks for client-side model deployment and one can also use my code as a boilerplate for setting up webapps of your own for deploying ML models using these frameworks.
 
 
 ---
