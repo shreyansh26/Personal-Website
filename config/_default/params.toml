@@ -206,7 +206,7 @@ plugins_js  = []
 
   # Configuration of Disqus.
   [comments.disqus]
-    shortname = "shreyansh26-netlify-com"  # Paste the shortname from your Disqus dashboard.
+    shortname = "shreyansh26-github-io"  # Paste the shortname from your Disqus dashboard.
     show_count = true  # Show comment count in page header? (true/false)
 
 ############################
