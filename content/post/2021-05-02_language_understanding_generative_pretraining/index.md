@@ -125,7 +125,7 @@ The testing and input transformations for using the pretrained model directly ar
 
 -------
 
-**I have also released an annotated version of the paper. If you are interested, you can find it [here](https://github.com/shreyansh26/Annotated-ML-Papers/blob/main/ELMo.pdf).**
+**I have also released an annotated version of the paper. If you are interested, you can find it [here](https://github.com/shreyansh26/Annotated-ML-Papers/blob/main/GPT1.pdf).**
 
 This is all for now!
 
