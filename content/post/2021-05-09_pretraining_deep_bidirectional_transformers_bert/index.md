@@ -264,7 +264,7 @@ For a non-null answer, a s<sub>i,j</sub> = S•T<sub>i</sub> + E•T<sub>j</sub>
 
 {{< figure src="/post/2021-05-09_pretraining_deep_bidirectional_transformers_bert/images/squad2.PNG" caption="" >}}
 
-**SWAG** - The Situations With Adversarial Generations (SWAG) dataset contains 113k sentence-pair completion examples that evaluate grounded commonsense inference. Given a sentence, the task is to choose the most correct continuation of the sentence among four choices. A scoring is performed for the four sentence pairs, the given sentence A and the possible continuation B. Here a vector is introduiced whose dot product with the \[CLS\] token representation C denotes the score for each of the four choices and a softmax ayer is used to get the probabilty distribution. The model was fine-tuned for 3 epochs with a learning rate of 2e-5 and a batch size of 16.
+**SWAG** - The Situations With Adversarial Generations (SWAG) dataset contains 113k sentence-pair completion examples that evaluate grounded commonsense inference. Given a sentence, the task is to choose the most correct continuation of the sentence among four choices. A scoring is performed for the four sentence pairs, the given sentence A and the possible continuation B. Here a vector is introduiced whose dot product with the \[CLS\] token representation C denotes the score for each of the four choices and a softmax layer is used to get the probabilty distribution. The model was fine-tuned for 3 epochs with a learning rate of 2e-5 and a batch size of 16.
 
 {{< figure src="/post/2021-05-09_pretraining_deep_bidirectional_transformers_bert/images/swag.PNG" caption="" >}}
 
