@@ -73,7 +73,7 @@ Now to get one single vector for each token, all the representations in *R* are 
 
 {{< figure src="/post/2021-04-25_deep_contextualized_word_representations_elmo/images/elmoeq.PNG" caption="" >}}
 
-The <i>s</i><sup><i>task</i></sup> are softmax normalized weights and the scale parameter &gamma;<sup><i>task</i></sup> allows te task model to scale the entire ELMo vector. In spme cases, applying LayerNorm to each biLM layer before weighting also helped.
+The <i>s</i><sup><i>task</i></sup> are softmax normalized weights and the scale parameter &gamma;<sup><i>task</i></sup> allows the task model to scale the entire ELMo vector. In some cases, applying LayerNorm to each biLM layer before weighting also helped.
 
 ### Using ELMo for supervised NLP tasks
 We start with a pretrained biLM model, The biLM is run to record the layer representations for each word. When using any supervised deep learning MLP model have a common architecture for the lowest layers. They usually use a context-independent token representation x<sub>k</sub> for each token position using pre-trained embeddings and optionally also using character-based representations. Then, in the higher layers, the model forms context-sensitive representations using RNNs, CNNs or whatever, as per the task and the model.
