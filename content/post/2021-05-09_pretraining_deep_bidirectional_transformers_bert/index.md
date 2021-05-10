@@ -2,7 +2,7 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Paper Notes #4 - BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding"
-subtitle: "The ground breaking paper that introduced the famous BERT model. This started the inflow of a large number of BERT-based lnaguegae understanding models."
+subtitle: "The ground breaking paper that introduced the famous BERT model. This started the inflow of a large number of BERT-based language understanding models."
 authors: ["Shreyansh Singh"]
 tags: [paper reading, language model, language understanding, nlp, language model, gpt, transformer, deep learning]
 categories: [Machine Learning]
