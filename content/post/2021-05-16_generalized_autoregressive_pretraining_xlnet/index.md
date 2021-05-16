@@ -38,21 +38,21 @@ projects: [Paper Notes]
 The paper proposes XLNet, a generalized autoregressive pretraining method that enables learning bidirectional contexts over all permutations of the factorization order and overcomes the limitations of BERT due to the autoregressive formulation of XLNet. XLNet incorporates Transformer-XL as the underlying model. It outperforms BERT in 20 NLP tasks like question answering, natural language inference, sentiment analysis and document ranking.
 
 ## Why?
-The existing unsupervised representation learning approaches can be divided into two types - autoregressive language modelling and autoencoding approaches. The autoregressive methods like ELMo and GPT tried to estimate the probability distribution of a text corpus with an autoregressive model. They had a limitation that they only captured the unidirectional context. BERT aimed to solve this problem by aiming to reconstruct the original data from the corrupted input. So BERT could capture the bidirectional context, but by converting this into a prediction problem, BERT assumed that the predicted tokens are independent of each other. However, that is not the case in natural language where long term dependency is prevalent. Moreover, the use of the \[MASK\] tokens also created a pretrain-finetune discrepancy as there are no \[MASK\] tokens available during finetuning.
+The existing unsupervised representation learning approaches can be divided into two types - autoregressive language modeling and autoencoding approaches. The autoregressive methods like ELMo and GPT tried to estimate the probability distribution of a text corpus with an autoregressive model. They had a limitation in that they only captured the unidirectional context. BERT aimed to solve this problem by aiming to reconstruct the original data from the corrupted input. So BERT could capture the bidirectional context, but by converting this into a prediction problem, BERT assumed that the predicted tokens are independent of each other. However, that is not the case in natural language where long term dependency is prevalent. Moreover, the use of the \[MASK\] tokens also created a pretrain-finetune discrepancy as there are no \[MASK\] tokens available during finetuning.
 
 XLNet tries to leverage the best of both worlds. The qualities of XLNet are - 
 * XLNet computes the maximum likelihood of a sequence w.r.t. all possible permutations of the factorization order. So when calculating the expectation, each position learns to capture the context from all positions, hence capturing bidirectional context.
 * XLNet does not rely on data corruption as in BERT and hence does not suffer from the pretrain-finetune discrepancy. 
-* XLNet integrates the novelties from Transformer-XL like recurrence mechanism and relative encoding scheme (explained later as well). This improves the performance for tasks that utilise a longer text sequence. 
+* XLNet integrates the novelties from Transformer-XL like recurrence mechanism and relative encoding scheme (explained later as well). This improves the performance of tasks that utilise a longer text sequence. 
 
 ## How?
-Autoregressive language modelling performs pretraining by maximizing the likelihood under the forward autoregressive factorization - 
+Autoregressive language modeling performs pretraining by maximizing the likelihood under the forward autoregressive factorization - 
 
 {{< figure src="/post/2021-05-16_generalized_autoregressive_pretraining_xlnet/images/arobjective.PNG" caption="" >}}
 
 Here *x* is the given text sequence. h<sub>&Theta;</sub>(x<sub>1:t-1</sub>) is the context representation produced by the model and *e*(x) is the embedding of *x*.
 
-Denoising autoencoding approach like BERT first constructs a corrupt version *x*(cap) by randomly masking a fraction (15%) of tokens of *x* to a special symbol \[MASK\]. The masked tokens are denoted by *x*(bar). So, the training objective objective in case of BERT becomes - 
+Denoising autoencoding approach like BERT first constructs a corrupt version *x*(cap) by randomly masking a fraction (15%) of tokens of *x* to a special symbol \[MASK\]. The masked tokens are denoted by *x*(bar). So, the training objective in the case of BERT becomes - 
 
 {{< figure src="/post/2021-05-16_generalized_autoregressive_pretraining_xlnet/images/aeobjective.PNG" caption="" >}}
 
@@ -63,7 +63,7 @@ In BERT, the conditional probability is taken when the input is masked, denoted 
 ### Objective: Permutation Language Modeling
 Both autoregressive and autoencoding approaches have their benefits over each other. XLNet tries to bring both their advantages into the picture while avoiding their weaknesses.
 
-XLNet proposes the use of permutation language modeling objective that looks like the general autoregressive language modeling approach but it allows the model to capture bidirectional context as well. Here, the training is performed for each valid autoregressive factorization order (permutations) of the sequence. The model parameters are shared across all the factorization orders, and hence the models learns to capture information from all positions on both sides. 
+XLNet proposes the use of permutation language modeling objective that looks like the general autoregressive language modeling approach but it allows the model to capture bidirectional context as well. Here, the training is performed for each valid autoregressive factorization order (permutations) of the sequence. The model parameters are shared across all the factorization orders, and hence the model learns to capture information from all positions on both sides. 
 
 The proposed permutation language modeling approach is -
 
@@ -154,7 +154,7 @@ For a given factorization order ***z***,  cutting point *c* is chosen which spli
 
 A hyperparameter *K* is chosen to determine what fraction of the sequence length will be the target sequence. This is done so that sufficient sequence length is present for the model to learn the context.
 
-Here again XLNet differs from BERT. Let us consider an example \[New, York, is, a city\]. If both BERT and XLNet take two tokens [New, York] as the prediction task and so they have to maximize p(New York | is a city). Here BERT and XLNet get the following objectives - 
+Here again, XLNet differs from BERT. Let us consider an example \[New, York, is, a city\]. If both BERT and XLNet take two tokens [New, York] as the prediction task and so they have to maximize p(New York | is a city). Here BERT and XLNet get the following objectives - 
 
 {{< figure src="/post/2021-05-16_generalized_autoregressive_pretraining_xlnet/images/bertxlnet.PNG" caption="" >}}
 
@@ -170,7 +170,7 @@ Also since the positional embeddings depend on the actual positions in the origi
 ### Modeling Multiple Segments
 Like BERT, XLNet randomly samples two segments (either from the same context or not) and treats the concatenation of two segments as one sequence to perform permutation language modeling.
 
-XLNET introduces Relative Segment Encodings. Unlike BERT which had absolute segment embeddings that were added to the word embedding at each position, here, rather than giving the entire segment a encoding, relative encoding is used between positions to denote whether they belong to the same segment or not.
+XLNET introduces Relative Segment Encodings. Unlike BERT which had absolute segment embeddings that were added to the word embedding at each position, here, rather than giving the entire segment an encoding, relative encoding is used between positions to denote whether they belong to the same segment or not.
 The segment encoding of the positions is used to compute the attention weight. So, when position *i* attends to *j*, the segment encoding s<sub><i>ij</i></sub> is used to compute an attention weight a<sub>ij</sub> = (q<sub>i</sub> + b)<sup>T</sup>s<sub>ij</sub> , where q<sub>i</sub> is the query vector as in a standard attention operation and *b* is a learnable head-specific bias vector.
 
 Relative segment encodings help because - 
@@ -178,9 +178,9 @@ Relative segment encodings help because -
 * Opens up the possibility of finetuning on tasks that have more than two input segments, which is not possible when using absolute segment encodings.
 
 ## Results
-Two datasets were same as the ones BERT used i.e., BooksCorpus and English Wikipedia. Furthermore, Giga5, ClueWeb 2012-B and CommonCrawl datasets were also used. SentencePiece tokenization was used.
+Two datasets were the same as the ones BERT used i.e., BooksCorpus and English Wikipedia. Furthermore, Giga5, ClueWeb 2012-B and CommonCrawl datasets were also used. SentencePiece tokenization was used.
 
-XLNet had the same architecture hyperparameters as BERT-Base and XLNet-Large had the same hyperparameters as BERT-Large. this resulted in a similar model size and hence a fair comparison. 
+XLNet had the same architecture hyperparameters as BERT-Base and XLNet-Large had the same hyperparameters as BERT-Large. this resulted in similar model size and hence a fair comparison. 
 
 XLNet was trained on 512 TPU v3 chips for 500K steps with an Adam weight decay
 optimizer, linear learning rate decay, and a batch size of 8192, which took about 5.5 days. And even after using so much compute and time, the model still underfitted on the data at the end of the training. 
@@ -203,13 +203,13 @@ XLNet outperforms BERT by a sizable margin on all the considered datasets.
 * For explicit reasoning tasks like SQuAD and RACE that involve longer context, the performance gain of XLNet is larger. The use of Transformer-XL could be the main reason behind this. 
 * For classification tasks that already have abundant supervised examples such as MNLI (>390K), Yelp (>560K) and Amazon (>3M), XLNet still lead to substantial gains.
 
-**Ablation study** was also performed to understand the importance and effect of introducing each component. The points of study were - 
+**Ablation study** was also performed to understand the importance and effect of introducing each component. The points of the study were - 
 
 * The effectiveness of the permutation language modeling objective alone, especially compared to the denoising auto-encoding objective used by BERT. 
-* The importance of using Transformer-XL as the backbone neural architecture. For this a DAE + Transformer-XL model was used.
+* The importance of using Transformer-XL as the backbone neural architecture. For this, a DAE + Transformer-XL model was used.
 * The necessity of some implementation details including span-based prediction, the bidirectional input pipeline, and next-sentence prediction.
 
-For fair comparison, all models were based on a 12-layer architecture with the same model hyper-parameters as BERT-Base and were trained on only Wikipedia and the BooksCorpus. All results reported are the median of 5 runs.
+For a fair comparison, all models were based on a 12-layer architecture with the same model hyper-parameters as BERT-Base and were trained on only Wikipedia and the BooksCorpus. All results reported are the median of 5 runs.
 
 {{< figure src="/post/2021-05-16_generalized_autoregressive_pretraining_xlnet/images/ablation.PNG" caption="Performance on natural language understanding tasks - the GLUE benchmark." >}}
 
@@ -218,7 +218,7 @@ From the table -
 * Transformer-XL and the permutation LM (the basis of XLNet) are big factors in the superior performance of XLNet over BERT.
 * On removing the memory caching mechanism, the performance drops especially for RACE where long context understanding is needed.
 * Span-based prediction and bidirectional input pipeline also help in the performance of XLNet.
-* The next-sentence prediction objective does not lead to a improvement. Hence the next-sentence prediction objective is excluded from XLNet.
+* The next-sentence prediction objective does not lead to an improvement. Hence the next-sentence prediction objective is excluded from XLNet.
 
 -------
 
