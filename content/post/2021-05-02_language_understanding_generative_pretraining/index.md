@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Paper Notes #3 - Improving Language Understanding by Generative Pre-Training"
+title: "Paper Summary #3 - Improving Language Understanding by Generative Pre-Training"
 subtitle: "The first paper in the GPT set of models. This is OpenAI's GPT-1."
 authors: ["Shreyansh Singh"]
 tags: [paper reading, word representations, nlp, language model, gpt, transformer, deep learning]

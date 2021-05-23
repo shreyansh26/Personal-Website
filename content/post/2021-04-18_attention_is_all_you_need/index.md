@@ -1,8 +1,8 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Paper Notes #1 - Attention Is All You Need"
-subtitle: "The first of the paper notes series. This is where I briefly summarise the important papers that I read for my job or just for fun :P"
+title: "Paper Summary #1 - Attention Is All You Need"
+subtitle: "The first of the paper summary series. This is where I briefly summarise the important papers that I read for my job or just for fun :P"
 authors: ["Shreyansh Singh"]
 tags: [paper reading, transformers, nlp, deep learning]
 categories: [Machine Learning]

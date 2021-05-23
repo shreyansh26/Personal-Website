@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Paper Notes #5 - XLNet: Generalized Autoregressive Pretraining for Language Understanding"
+title: "Paper Summary #5 - XLNet: Generalized Autoregressive Pretraining for Language Understanding"
 subtitle: "XLNet tries to overcome the limitations of BERT by having a autoregressive component while also capturing the bidirectional context."
 authors: ["Shreyansh Singh"]
 tags: [paper reading, autoregressive, transformer, transformer-xl, nlp, language model, deep learning]

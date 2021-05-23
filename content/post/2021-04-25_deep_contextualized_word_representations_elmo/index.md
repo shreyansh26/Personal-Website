@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Paper Notes #2 - Deep contextualized word representations"
+title: "Paper Summary #2 - Deep contextualized word representations"
 subtitle: "The second post in the paper notes series. This time we take a look at ELMo."
 authors: ["Shreyansh Singh"]
 tags: [paper reading, word representations, nlp, language model, lstm, deep learning]
