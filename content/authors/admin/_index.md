@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: AI Software Engineer
+role: AI Engineer
 
 # Organizations/Affiliations
 organizations:
@@ -18,13 +18,14 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include information security, especially binary analysis and also the application of Machine Learning in security.
+bio: My research interests include Machine Learning, Natural Labguage Processing and as well as the application of Machine Learning in information security. Lately, I have been reading more about Reinforcement Learning as well.
 
 interests:
 - Machine Learning
-- Reverse Engineering
-- Cryptography
 - Natural Language Processing
+- Computer Vision
+- Cryptography
+
 
 education:
   courses:
@@ -68,7 +69,7 @@ user_groups:
 - Visitors
 ---
 
-I am working as an **AI Engineer at Mastercard**. My team is based in Gurugram, India and is a relatively new team working on leveraging AI to get certain insights and automating stuff to make the transactions world a smarter and secure place.
+I am working as an **AI Engineer at Mastercard**. My team is based in Gurugram, India and we primarily work on leveraging AI to make the transactions world a smarter and secure place. My work largely involves **applied research**, meaning I am involved both in incorporating AI and Machine Learning in product development <u>(leading to product launches/patents)</u> as well as pure research work <u>(publishing papers at AI conferences)</u>.
 
 I did my **B.Tech in Computer Science and Engineering from IIT (BHU) Varanasi**. My B.Tech advisor was [**Prof. K.K. Shukla**](https://iitbhu.ac.in/dept/cse/people/kkshuklacse). I worked on privacy-preserving Machine Learning and its application in the medical industry. Previously I had also worked with him on Adversarial Machine Learning and Malware classification problems. In summer 2019, I was an intern at [**Samsung Research Institute - Bangalore**](https://research.samsung.com/sri-b), working on mobility in 5G networks. I also worked as a research intern at the [**C3i Institute, Indian Institute of Technology Kanpur**](https://security.cse.iitk.ac.in/) on Malware Detection for Linux, in winter 2018.  In summer 2018, I was a Data Science intern at [**Innoplexus, Pune (India)**](https://www.innoplexus.com/), working with the Computer Vision team. I have also worked with [**Dr. Anil Kumar Singh**](https://www.iitbhu.ac.in/dept/cse/people/aksinghcse), on sentiment analysis on product reviews and natural language generation.
 
