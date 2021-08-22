@@ -19,7 +19,7 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
-  title = "AI Software Engineer"
+  title = "AI Engineer"
   company = "AI Garage - Mastercard"
   company_url = "https://www.mastercard.co.in/en-in.html"
   location = "Gurgaon, India"
