@@ -108,10 +108,10 @@ office_hours = []
 
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
-contact_links = [
-  {icon = "keybase", icon_pack = "fab", name = "Chat on Keybase", link = "https://keybase.io/shreyansh26"},
-  {icon = "telegram", icon_pack = "fab", name = "Telegram Me", link = "https://telegram.me/shreyansh_26"},
-  ]
+#contact_links = [
+#  {icon = "keybase", icon_pack = "fab", name = "Chat on Keybase", link = "https://keybase.io/shreyansh26"},
+#  {icon = "telegram", icon_pack = "fab", name = "Telegram Me", link = "https://telegram.me/shreyansh_26"},
+#  ]
 
 ############################
 ## Social

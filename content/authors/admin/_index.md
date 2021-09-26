@@ -18,7 +18,7 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include Machine Learning, Natural Labguage Processing and as well as the application of Machine Learning in information security. Lately, I have been reading more about Reinforcement Learning as well.
+bio: My research interests include Machine Learning, Natural Language Processing and as well as the application of Machine Learning in information security. Lately, I have been reading more about Reinforcement Learning as well.
 
 interests:
 - Machine Learning

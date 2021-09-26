@@ -19,11 +19,20 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
-  organization = "30th International Conference on Artificial Neural Networks"
-  organization_url = "https://e-nns.org/icann2021/"
-  title = "Paper accepted!"
+  organization = "28th International Conference on Neural Information Processing (ICONIP 2021)"
+  organization_url = "https://iconip2021.apnns.org/"
+  title = "Paper accepted"
   url = ""
-  date_start = "2021-09-17"
+  date_start = "2021-09-26"
+  date_end = ""
+  description = "Our paper 'MeTGAN: Memory efficient Tabular GAN for high cardinality categorical datasets' got accepted at ICONIP 2021."
+
+[[item]]
+  organization = "30th International Conference on Artificial Neural Networks (ICANN 2021)"
+  organization_url = "https://e-nns.org/icann2021/"
+  title = "Paper accepted"
+  url = "https://link.springer.com/chapter/10.1007/978-3-030-86383-8_2"
+  date_start = "2021-07-17"
   date_end = ""
   description = "Our paper 'CuRL: Coupled Representation Learning of Cards and Merchants to Detect Transaction Frauds' got accepted at ICANN 2021."
 
@@ -39,7 +48,7 @@ date_format = "Jan 2006"
 [[item]]
   organization = "Mastercard AI"
   organization_url = "https://www.mastercard.co.in/en-in.html"
-  title = "First job!"
+  title = "First job"
   url = ""
   date_start = "2020-08-04"
   date_end = ""
@@ -66,7 +75,7 @@ date_format = "Jan 2006"
 [[item]]
   organization = "Workshop on Multilingual Surface Realisation, ACL"
   organization_url = "http://taln.upf.edu/pages/msr2018-ws/"
-  title = "Paper accepted!"
+  title = "Paper accepted"
   url = "https://www.aclweb.org/anthology/W18-3603/"
   date_start = "2018-07-23"
   date_end = ""
