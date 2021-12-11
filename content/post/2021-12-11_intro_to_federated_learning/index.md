@@ -152,6 +152,10 @@ In practice, major speedups are obtained when computation on each client is impr
 
 -------
 
+I wrote a Twitter thread on this topic as well - do give it a like/follow me if you liked the article. 
+
+{{< tweet user="shreyansh_26" id="1462262151209381888" >}}
+
 This is all for now. Thanks for reading!
 
 In my next post, I'll share a mathematical explanation as to how optimization (learning) is done in a Federated Learning setting. I will also explain some experimental results that have been published.
