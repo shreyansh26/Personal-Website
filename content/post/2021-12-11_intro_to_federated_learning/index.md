@@ -4,7 +4,7 @@
 title: "PPML Series #1 - An introduction to Federated Learning"
 subtitle: "A short general introduction to Federated Learning (FL) for folks interested in privacy-preserving machine learning (PPML)."
 authors: ["Shreyansh Singh"]
-tags: [federated-learning, ppml, privacy]
+tags: [federated-learning, ppml]
 categories: [Machine Learning]
 date: 2021-12-11T16:17:16+05:30
 lastmod: 2021-12-11T16:17:16+05:30
@@ -52,7 +52,7 @@ Federated Learning usually helps in three contexts -
 
 Applications of FL could include image classification, predicting which images will be viewed multiple times in the future, language modelling, next word/phrase prediction.
 
-### How does FL provide privacy (upto a certain extent)?
+### How does FL provide privacy (up to a certain extent)?
 
 Handling even anonymized data can lead to privacy concerns. What better way than to use the data itself to train the models but at the same time, not risk its privacy. In contrast, the information transmitted for federated learning is the minimal update necessary to improve a particular model. They will generally contain much less information about the raw data. Further, the source of the updates is not needed by the aggregation algorithm, so updates can be transmitted without identifying meta-data over a mix network such as Tor or trusted third-parties.
 
