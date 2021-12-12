@@ -3,9 +3,8 @@
 
 title: "Deploying Machine Learning models using AWS Lambda and Github Actions - A Detailed Tutorial"
 subtitle: "A step-wise tutorial to demonstrate the steps required to deploy a ML model using AWS Lambda, Github Actions, API Gateway and use Streamlit to access the model API through a UI. "
-summary: ""
 authors: ["Shreyansh Singh"]
-tags: [model deployment, aws, github actions, api, streamlit]
+tags: [model deployment, aws, github actions, api, streamlit, postman]
 categories: [Machine Learning]
 date: 2021-12-12T23:15:03+05:30
 lastmod: 2021-12-12T23:15:03+05:30
@@ -25,7 +24,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: [Model Deployment]
+projects: []
 ---
 
 ------
@@ -38,8 +37,8 @@ This post, through a PoC, describes -
 2. How to push the Docker container to Amazon ECR 
 3. Add a Lambda Function for your model
 4. Make a REST API using Amazon API Gateway to access your model
-5. Automate the whole process using Github Actions, so that any updates to the model can take effect immediately.
-6. Make a Streamlit app to make a UI to access the REST API (for the model deployed on AWS).
+5. Automate the whole process using Github Actions, so that any updates to the model can take effect immediately
+6. Make a Streamlit app to make a UI to access the REST API (for the model deployed on AWS)
 
 **All the code can be found in my [Github repository](https://github.com/shreyansh26/Iris_classification-AWS-Lambda-PoC).**
 
@@ -136,6 +135,52 @@ and provide your AWS Access Key ID and your AWS Secret Access Key to run the abo
 The container image URI can be selected from the AWS console itself.
 
 {{< figure src="/post/2021-12-28_model_deployment_using_aws_lambda/images/lambda2.PNG" caption="" >}}
+
+&nbsp;
+
+<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+
+<!-- <button style="background-color: #70ab17; color: #1770AB" id="openpopup">Subscribe to my posts!</button> -->
+<div class="button_cont" align="center"><button id="openpopup" class="example_a">Subscribe to my posts!</button></div>
+
+<style>
+    .example_a {
+        color: #fff !important;
+        text-transform: uppercase;
+        text-decoration: none;
+        background: #3f51b5;
+        padding: 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        display: inline-block;
+        border: none;
+        transition: all 0.4s ease 0s;
+    }
+
+    .example_a:hover {
+        background: #434343;
+        letter-spacing: 1px;
+        -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+        -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+        box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+        transition: all 0.4s ease 0s;
+    }
+</style>
+
+
+<script type="text/javascript">
+
+function showMailingPopUp() {
+    window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us4.list-manage.com","uuid":"0b10ac14f50d7f4e7d11cf26a","lid":"667a1bb3da","uniqueMethods":true}) })
+
+    document.cookie = "MCPopupClosed=;path=/;expires=Thu, 01 Jan 1970 00:00:00 UTC";
+}
+
+document.getElementById("openpopup").onclick = function() {showMailingPopUp()};
+
+</script>
+
+&nbsp;  
 
 ### 5. Test the Lambda
 
@@ -236,7 +281,7 @@ If required, you can also restrict any pushes to the master branch from Github (
 -----
 
 That's all for now!
-I hope the tutorial helps you deploy your own models to AWS Lambda easily. Make sure to read the pricing for each AWS product you use to avoid being charged unknowingly.
+I hope this tutorial helps you deploy your own models to AWS Lambda easily. Make sure to read the pricing for each AWS product you use to avoid being charged unknowingly.
 
 &nbsp;
 
