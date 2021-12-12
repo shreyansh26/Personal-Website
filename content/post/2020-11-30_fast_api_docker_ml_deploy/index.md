@@ -24,7 +24,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: []
+projects: [Model Deployment]
 ---
 
 The goal of this blog post is to make an API to get predictions from a pre-trained ML model and how we can do that in a fast manner using [FastAPI](https://fastapi.tiangolo.com/) and also be able to ship it using [Docker](https://www.docker.com/).
