@@ -6,8 +6,8 @@ subtitle: "Understanding how your mobile keyboard (Gboard, specifically) perform
 authors: ["Shreyansh Singh"]
 tags: [federated learning, ppml]
 categories: [Machine Learning]
-date: 2021-12-12T12:38:57+05:30
-lastmod: 2021-12-12T12:38:57+05:30
+date: 2021-12-27T00:00:57+05:30
+lastmod: 2021-12-27T00:00:57+05:30
 featured: false
 draft: false
 
