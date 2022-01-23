@@ -52,7 +52,7 @@ The goal of the task is to classify based on these dimensions, the type of the I
 * An Amazon Web Services account (I intentionally use a simple ML model to deploy as it remains in the AWS Free tier constraints across all the services I mention above. Larger models will require more storage and hence could be chargeable.)
 * Python 3.6+
 * A simple 
-`pip install -r requirements.txt` from the [https://github.com/shreyansh26/Iris_classification-AWS-Lambda-PoC/tree/master/iris_classification](iris_classification) directory will install the other Python packages required.
+`pip install -r requirements.txt` from the [https://github.com/shreyansh26/Iris_classification-AWS-Lambda-PoC/tree/master/iris_classification](https://github.com/shreyansh26/Iris_classification-AWS-Lambda-PoC/tree/master/iris_classification) directory will install the other Python packages required.
 
 
 ## Steps to follow
