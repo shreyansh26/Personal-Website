@@ -19,12 +19,21 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
-  title = "AI Engineer"
+  title = "AI Software Engineer"
+  company = "Level AI"
+  company_url = "https://thelevel.ai/"
+  location = "New Delhi, India"
+  date_start = "2022-01-15"
+  date_end = ""
+  description = """"""
+
+[[experience]]
+  title = "Data Scientist"
   company = "AI Garage - Mastercard"
   company_url = "https://www.mastercard.co.in/en-in.html"
   location = "Gurgaon, India"
   date_start = "2020-08-04"
-  date_end = ""
+  date_end = "2022-01-14"
   description = """"""
 
 [[experience]]
@@ -35,7 +44,6 @@ date_format = "Jan 2006"
   date_start = "2019-05-17"
   date_end = "2019-07-12"
   description = """Worked on mobility in 5G"""
-
 
 [[experience]]
   title = "Research Intern"

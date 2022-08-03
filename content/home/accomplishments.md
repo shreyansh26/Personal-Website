@@ -19,6 +19,15 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
+  organization = "LevelAI"
+  organization_url = "https://www.mastercard.co.in/en-in.html"
+  title = "New job! New challenges!"
+  url = ""
+  date_start = "2022-01-15"
+  date_end = ""
+  description = "Joined LevelAI as an AI Software Engineer in NLP."
+
+[[item]]
   organization = "28th International Conference on Neural Information Processing (ICONIP 2021)"
   organization_url = "https://iconip2021.apnns.org/"
   title = "Paper accepted"
@@ -46,7 +55,7 @@ date_format = "Jan 2006"
   description = "Earned a Silver Medal (top 5%) in the Kaggle Shopee - Price Match Guarantee competition. Ranked 115th among 2426 teams while participating solo in the competition."
 
 [[item]]
-  organization = "Mastercard AI"
+  organization = "Mastercard AI Garage"
   organization_url = "https://www.mastercard.co.in/en-in.html"
   title = "First job"
   url = ""
