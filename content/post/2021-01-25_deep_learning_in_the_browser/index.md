@@ -4,7 +4,7 @@
 title: "Deep Learning in the Browser - Exploring TF.js, WebDNN and ONNX.js"
 subtitle: "Just a quick tutorial to set up a small scale deployment for your ML or DL model"
 authors: ["Shreyansh Singh"]
-tags: [deep learning, machine learning, deployment, web]
+tags: [deep learning, machine learning, model-deployment, web]
 categories: [Machine Learning]
 date: 2021-01-25T12:53:13+05:30
 lastmod: 2021-01-25T12:53:13+05:30

@@ -18,9 +18,20 @@ date_format = "Jan 2006"
 #   Leave other parameters empty if not required.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
+
 [[item]]
   organization = "LevelAI"
-  organization_url = "https://www.mastercard.co.in/en-in.html"
+  organization_url = "https://thelevel.ai/"
+  title = "Promoted!"
+  url = ""
+  date_start = "2022-09-15"
+  date_end = ""
+  description = "Promoted to Senior ML Engineer!"
+
+
+[[item]]
+  organization = "LevelAI"
+  organization_url = "https://thelevel.ai/"
   title = "New job! New challenges!"
   url = ""
   date_start = "2022-01-15"

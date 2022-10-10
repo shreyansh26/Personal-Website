@@ -4,7 +4,7 @@
 title: "Paper Summary #2 - Deep contextualized word representations"
 subtitle: "The second post in the paper notes series. This time we take a look at ELMo."
 authors: ["Shreyansh Singh"]
-tags: [paper reading, word representations, nlp, language model, lstm, deep learning]
+tags: [paper reading, word representations, nlp, language model, lstm, deep learning, paper-summaries]
 categories: [Machine Learning]
 date: 2021-04-25T15:13:13+05:30
 lastmod: 2021-04-25T15:13:13+05:30

@@ -4,7 +4,7 @@
 title: "PPML Series #2 - Federated Optimization Algorithms - FedSGD and FedAvg"
 subtitle: "A mathematical deep dive on a Federated Optimization algorithm - FedAvg and comparing it with a standard approach - FedSGD."
 authors: ["Shreyansh Singh"]
-tags: [federated learning, ppml]
+tags: [federated learning, ppml, paper-summaries]
 categories: [Machine Learning]
 date: 2021-12-18T00:16:23+05:30
 lastmod: 2021-18-12T00:16:23+05:30

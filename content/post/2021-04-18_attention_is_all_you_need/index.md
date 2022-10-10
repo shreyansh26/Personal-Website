@@ -4,7 +4,7 @@
 title: "Paper Summary #1 - Attention Is All You Need"
 subtitle: "The first of the paper summary series. This is where I briefly summarise the important papers that I read for my job or just for fun :P"
 authors: ["Shreyansh Singh"]
-tags: [paper reading, transformers, nlp, deep learning]
+tags: [paper reading, transformers, nlp, deep learning, paper-summaries]
 categories: [Machine Learning]
 date: 2021-04-18T16:57:49+05:30
 lastmod: 2021-04-18T16:57:49+05:30

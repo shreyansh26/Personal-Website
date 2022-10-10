@@ -4,7 +4,7 @@
 title: "Deploying Machine Learning models using GCP's Google AI Platform - A Detailed Tutorial"
 subtitle: "A step-wise tutorial to demonstrate the steps required to deploy a ML model using GCP, specifically the Google AI Platform and use Streamlit to access the model through a UI."
 authors: ["Shreyansh Singh"]
-tags: [model deployment, gcp, streamlit, postman]
+tags: [model-deployment, gcp, streamlit, postman]
 categories: [Machine Learning]
 date: 2022-03-06T00:37:30+05:30
 lastmod: 2022-03-06T00:37:30+05:30

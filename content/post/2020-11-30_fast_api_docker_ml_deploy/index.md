@@ -4,7 +4,7 @@
 title: "Quick tutorial to deploy your ML models using FastAPI and Docker"
 subtitle: "Just a quick tutorial to set up a small scale deployment for your ML or DL model"
 authors: ["Shreyansh Singh"]
-tags: [ml, deployment, web]
+tags: [ml, model-deployment, web]
 categories: [Machine Learning]
 date: 2020-11-30T11:21:53+05:30
 lastmod: 2020-11-30T11:21:53+05:30

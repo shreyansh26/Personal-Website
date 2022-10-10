@@ -4,7 +4,7 @@
 title: "Paper Summary #3 - Improving Language Understanding by Generative Pre-Training"
 subtitle: "The first paper in the GPT set of models. This is OpenAI's GPT-1."
 authors: ["Shreyansh Singh"]
-tags: [paper reading, word representations, nlp, language model, gpt, transformer, deep learning]
+tags: [paper reading, word representations, nlp, language model, gpt, transformer, deep learning, paper-summaries]
 categories: [Machine Learning]
 date: 2021-05-02T13:42:14+05:30
 lastmod: 2021-05-02T13:42:14+05:30

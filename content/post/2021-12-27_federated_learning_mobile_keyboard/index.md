@@ -4,7 +4,7 @@
 title: "PPML Series #3 - Federated Learning for Mobile Keyboard Prediction"
 subtitle: "Understanding how your mobile keyboard (Gboard, specifically) performs the next word prediction task and performs model training and updates"
 authors: ["Shreyansh Singh"]
-tags: [federated learning, ppml]
+tags: [federated learning, ppml, paper-summaries]
 categories: [Machine Learning]
 date: 2021-12-27T00:00:57+05:30
 lastmod: 2021-12-27T00:00:57+05:30

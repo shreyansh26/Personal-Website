@@ -4,7 +4,7 @@
 title: "Paper Summary #6 - Language Models are Unsupervised Multitask Learners"
 subtitle: "The GPT2 model which aimed to perform complex NLP tasks while relying only on a language model trained in a completely unsupervised fashion."
 authors: ["Shreyansh Singh"]
-tags: [paper reading, language model, gpt, nlp, deep learning]
+tags: [paper reading, language model, gpt, nlp, deep learning, paper-summaries]
 categories: [Machine Learning]
 date: 2021-05-23T16:44:32+05:30
 lastmod: 2021-05-23T16:44:32+05:30
