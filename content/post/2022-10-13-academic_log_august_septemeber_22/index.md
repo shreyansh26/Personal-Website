@@ -87,7 +87,6 @@ A collection of academic papers/blogs/talks/projects that I read/watched/explore
 - [But what is the Fourier Transform? A visual introduction](https://www.youtube.com/watch?v=spUNpyF58BY&ab_channel=3Blue1Brown)
 - [The weirdest paradox in statistics (and machine learning)](https://www.youtube.com/watch?v=cUqoHQDinCM&t=0s&ab_channel=Mathemaniac)
 - [Continual Learning - Full Stack Deep Learning](https://www.youtube.com/watch?v=nra0Tt3a-Oc)
-
 ------
 
 &nbsp;
