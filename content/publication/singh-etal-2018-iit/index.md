@@ -7,6 +7,7 @@ abstract = "This paper describes our submission system for the Shallow Track of 
 featured = false
 publication = "*Proceedings of the First Workshop on Multilingual Surface Realisation*"
 url_pdf = "https://www.aclweb.org/anthology/W18-3603"
+url_code = "https://github.com/shreyansh26/SRST-18"
 doi = "10.18653/v1/W18-3603"
 +++
 

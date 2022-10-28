@@ -54,12 +54,12 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf:
-url_code:
+url_pdf: https://link.springer.com/chapter/10.1007/978-3-030-92310-5_60
+url_code: https://github.com/shreyansh26/MeTGAN-paper
 url_dataset:
 url_poster:
 url_project:
-url_slides:
+url_slides: https://docs.google.com/presentation/d/1g5zg3pHKatM2Gv-gqn-QESliC92TFyPK/edit?usp=sharing&ouid=118016587896212855658&rtpof=true&sd=true
 url_source:
 url_video:
 
