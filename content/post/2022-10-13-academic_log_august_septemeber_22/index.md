@@ -31,7 +31,7 @@ projects: []
 A collection of academic papers/blogs/talks/projects that I read/watched/explored during the month. I also include any small (or large) personal projects that I did and any such related ML/non-ML work.
 
 ## Personal Projects
-- **VAE-Implementation** - A simple implementation fo Autoencoder and Variational Autoencoder - [[Github]](https://github.com/shreyansh26/VAE-Implementation)
+- **VAE-Implementation** - A simple implementation of Autoencoder and Variational Autoencoder - [[Github]](https://github.com/shreyansh26/VAE-Implementation)
 - **MinHash-Implemenation** - A simple MinHash implementation based on the explanation in the Mining of Massive Datasets course by Stanford - [[Github]](https://github.com/shreyansh26/MinHash-Implemenation)
 - **Paper re-implementation** - Sentence VAE paper, "Generating Sentences from a Continuous Space" by Bowman et al., 2016 - [[Github]](https://github.com/shreyansh26/Sentence-VAE)
 - **Protohackers** - Started the Protohackers set of challenges to create servers for network protocols [[Website]](https://protohackers.com) [[Solutions]](https://github.com/shreyansh26/Protohackers-Solutions)
