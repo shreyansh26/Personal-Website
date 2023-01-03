@@ -54,25 +54,17 @@ A collection of academic papers/blogs/talks/projects that I read/watched/explore
 
 ## Papers I read (in addition to above)
 - [How does GPT Obtain its Ability? Tracing Emergent Abilities of Language Models to their Sources](https://www.notion.so/How-does-GPT-Obtain-its-Ability-Tracing-Emergent-Abilities-of-Language-Models-to-their-Sources-b9a57ac0fcf74f30a1ab9e3e36fa1dc1)
-- [Which Algorithmic Choices Matter at Which Batch Sizes? Insights From a Noisy Quadratic Model](https://arxiv.org/abs/1907.04164)
-- [An Empirical Model of Large-Batch Training](https://arxiv.org/abs/1812.06162)
-- [Artificial Interrogation for Attributing Language Models7](https://arxiv.org/abs/2211.10877)
+- [Artificial Interrogation for Attributing Language Models](https://arxiv.org/abs/2211.10877)
 - [Deep Learning on a Data Diet: Finding Important Examples Early in Training](https://arxiv.org/abs/2107.07075)
 - [BERT on a Data Diet: Finding Important Examples by Gradient-Based Pruning](https://arxiv.org/abs/2211.05610)
 - [Nonuniform Negative Sampling and Log Odds Correction with Rare Events Data](https://arxiv.org/abs/2110.13048)
-- [Monolith: Real Time Recommendation System With Collisionless Embedding Table](https://arxiv.org/abs/2209.07663)
 - [Confidence-Ranked Reconstruction of Census Microdata from Published Statistics](https://arxiv.org/abs/2211.03128)
 - [How Optimal is Greedy Decoding for Extractive Question Answering?](https://arxiv.org/abs/2108.05857)
-- [Limitations of the NTK for Understanding Generalization in Deep Learning](https://arxiv.org/abs/2206.10012)
-- [What can linearized neural networks actually say about generalization?](https://arxiv.org/abs/2106.06770)
 - [The Curious Case of Absolute Position Embeddings](https://arxiv.org/abs/2210.12574)
 - [Finding the smallest or largest element of a tensor from its low-rank factors](https://arxiv.org/abs/2210.11413v1)
-- [GLM-130B: An Open Bilingual Pre-trained Model](https://arxiv.org/abs/2210.02414)
 - [GreaseLM: Graph REASoning Enhanced Language Models for Question Answering](https://arxiv.org/abs/2201.08860)
 - [QA-GNN: Reasoning with Language Models and Knowledge Graphs for Question Answering](https://arxiv.org/abs/2104.06378)
 - [Red-Teaming the Stable Diffusion Safety Filter](https://arxiv.org/abs/2210.04610)
-- [Augmenting Netflix Search with In-Session Adapted Recommendations](https://dl.acm.org/doi/abs/10.1145/3523227.3547407)
-- [Adversary or Friend? An adversarial Approach to Improving Recommender Systems](https://dl.acm.org/doi/abs/10.1145/3523227.3546784)
 - [Snorkel DryBell: A Case Study in Deploying Weak Supervision at Industrial Scale](https://arxiv.org/abs/1812.00417)
 
 ## Blogs I read
@@ -97,8 +89,8 @@ A collection of academic papers/blogs/talks/projects that I read/watched/explore
 - [Reducing Instagram’s basic video compute time by 94 percent (fb.com)](https://engineering.fb.com/2022/11/04/video-engineering/instagram-video-processing-encoding-reduction/)
 - [Real-Time Research Recording: Can a Transformer Re-Derive Positional Info? - YouTube](https://www.youtube.com/watch?v=yo4QvDn-vsU&feature=youtu.be&ab_channel=NeelNanda)
 - NTK
-    - [Some Math behind Neural Tangent Kernel | Lil'Log (lilianweng.github.io)](https://lilianweng.github.io/posts/2022-09-08-ntk/)
-    - [Understanding the Neural Tangent Kernel – Rajat's Blog – A blog about machine learning and math. (rajatvd.github.io)](https://rajatvd.github.io/NTK/)
+  - [Some Math behind Neural Tangent Kernel | Lil'Log (lilianweng.github.io)](https://lilianweng.github.io/posts/2022-09-08-ntk/)
+  - [Understanding the Neural Tangent Kernel – Rajat's Blog – A blog about machine learning and math. (rajatvd.github.io)](https://rajatvd.github.io/NTK/)
 - Gaussian Processes
   - [A Visual Exploration of Gaussian Processes](https://distill.pub/2019/visual-exploration-gaussian-processes/)
   - [Fitting Gaussian Process Models in Python](https://www.dominodatalab.com/blog/fitting-gaussian-process-models-python)
