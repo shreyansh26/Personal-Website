@@ -95,6 +95,10 @@ A collection of academic papers/blogs/talks/projects that I read/watched/explore
   - [A Visual Exploration of Gaussian Processes](https://distill.pub/2019/visual-exploration-gaussian-processes/)
   - [Fitting Gaussian Process Models in Python](https://www.dominodatalab.com/blog/fitting-gaussian-process-models-python)
 
+## Courses
+
+- Revisited some of the [lectures of Advanced NLP (Fall'22)](https://youtube.com/playlist?list=PL8PYTP1V4I8D0UkqW2fEhgLrnlDW9QK7z) having completed the Fall'21 set of lectures in early 2022.
+
 ------
 
 &nbsp;
