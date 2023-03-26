@@ -1,5 +1,10 @@
 {
     "cSpell.words": [
-        "constarined"
+        "constarined",
+        "Recomputation",
+        "softmax"
+    ],
+    "cSpell.ignoreWords": [
+        "recomputation"
     ]
 }
