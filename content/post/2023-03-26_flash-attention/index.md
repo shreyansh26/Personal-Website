@@ -74,7 +74,7 @@ To understand this better, let's analyze it mathematically. Let $N_{op}$ be the 
 $$t_{compute} = \frac{N_{op}}{{BW}_{compute}}$$
 $$t_{memory} = \frac{N_{byte}}{{BW}_{memory}}$$
 
-The operation is compute-bound if $t_{compute}$ is less than $t_{memory}$ and vice-versa for memory bound. Which mathematically becomes -
+The operation is compute-bound if $t_{compute}$ is greater than $t_{memory}$ and vice-versa for memory bound. Which mathematically becomes -
 
 **For compute-bound**
 $$\frac{N_{op}}{N_{byte}} \gt \frac{{BW}_{compute}}{{BW}_{memory}}$$
