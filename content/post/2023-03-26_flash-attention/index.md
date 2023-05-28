@@ -37,7 +37,7 @@ projects: [Paper Notes]
 
 --------------------
 
-I finished reading the FlashAttention paper recently and thought that it would be good to have a technical write-up of the paper, so that understand the concept well. I decided to make it public and hopefully it can help anyone reading this.
+I finished reading the FlashAttention paper recently and thought that it would be good to have a technical write-up of the paper, so that it can help me understand the concept well. I decided to make it public and hopefully it can help anyone reading this.
 
 ## Overview
 
