@@ -33,7 +33,7 @@ date_format = "Jan 2006"
   company_url = "https://thelevel.ai/"
   location = "(Remote) Mountain View, California"
   date_start = "2022-09-15"
-  date_end = ""
+  date_end = "2023-05-21"
   description = """"""
 
 [[experience]]
