@@ -149,7 +149,7 @@ Sophia is probably one of the most interesting papers I have read recently and I
 ### Baselines
   - Main comparison with AdamW and Lion
   - AdamW for GPT2 hyperparams - WD = 0.1, $\beta_1 = 0.9$ and $\beta_2 = 0.95$ 
-  - Lion fro GPT2 hyperparams - $\beta_1 = 0.95$ and $\beta_2 = 0.98$ 
+  - Lion for GPT2 hyperparams - $\beta_1 = 0.95$ and $\beta_2 = 0.98$ 
 ### Implementation
   - Batch Size = 480
   - Cosine LR schedule with the final LR equal to 0.05 times the peak LR  

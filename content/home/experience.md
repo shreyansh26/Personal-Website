@@ -17,6 +17,16 @@ date_format = "Jan 2006"
 #   Required fields are `title`, `company`, and `date_start`.
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
+
+[[experience]]
+  title = "Lead Machine Learning Engineer"
+  company = "Level AI"
+  company_url = "https://thelevel.ai/"
+  location = "(Remote) Mountain View, California"
+  date_start = "2023-05-22"
+  date_end = ""
+  description = """"""
+
 [[experience]]
   title = "Senior Machine Learning Engineer"
   company = "Level AI"
