@@ -37,6 +37,8 @@ projects: [Paper Notes]
 
 --------------------
 
+**\[Update\] - I implemented a simplified version of FlashAttention (without the CUDA and SRAM memory optimizations) in PyTorch. [Check it out on Github.](https://github.com/shreyansh26/FlashAttention-PyTorch)**
+
 I finished reading the FlashAttention paper recently and thought that it would be good to have a technical write-up of the paper, so that it can help me understand the concept well. I decided to make it public and hopefully it can help anyone reading this.
 
 ## Overview
