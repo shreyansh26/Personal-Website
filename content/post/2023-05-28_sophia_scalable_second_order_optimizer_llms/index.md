@@ -134,7 +134,7 @@ Sophia is probably one of the most interesting papers I have read recently and I
   - Ultimately, the GNB estimator used by the authors is $$B \cdot \nabla_\theta \widehat L(\theta) \odot \nabla_\theta \widehat L(\theta)$$ where $\widehat L(\theta) = \frac{1}{B}\sum_{b=1}^B \ce(f(\theta, x_b), \hat{y}_b)$, here $\hat{y}_b$ are not the labels corresponding to $x_b$. They are just  __sampled labels__  from the mini-batch. 
   - The reason we can do that is in the math, which comes from the combination of 
       1. The claim in the paper that the second-order derivative of the loss w.r.t. the logits only depends on the logits and the true labels $y$. 
-      2. Bartlett’s first identity, which generally holds for the negative log-likelihood loss of any probabilistic model  and which states - $$\forall b, ~~\mathbb{E}_{\hat{y}_b}\nabla \ell_{\textup{ce}}(f(\theta,x_b),\hat{y}_b) = 0$$ 
+      2. Bartlett’s first identity, which generally holds for the negative log-likelihood loss of any probabilistic model  and which states - $$\forall b, \mathbb{E}_{\hat{y}_b}\nabla L\textup{ce}(f(\theta,x_b),\hat{y}_b) = 0$$ 
   - Also, the above estimator is an unbiased estimator for the diagonal of the Gauss-Newton matrix, which is a biased estimator for the diagonal of the Hessian.
   - Additional References - [Bartlett Identities](https://www.sfu.ca/~lockhart/richard/830/12_3/Summaries/8.pdf)
 
