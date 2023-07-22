@@ -28,7 +28,7 @@ image:
 projects: []
 ---
 
-I was reading about Markov Chain Monte Carlo (MCMC) recently and discovered a very famous application of using them to decrypt substitution ciphers. This blog is meant to serve as notes on how the problem can be framed as a Markov chain and how a simple yet smart Monte Carlo sampling approach can help solve it very efficiently. We won't be explaining what Markov process and MCMC is, however I'll add some references for that at the end of this post.
+I was reading about Markov Chain Monte Carlo (MCMC) recently and discovered a very famous application of using them to decrypt substitution ciphers. This blog is meant to serve as notes on how the problem can be framed as a Markov chain and how a simple yet smart Monte Carlo sampling approach can help solve it very efficiently. In this blog post, I won't be explaining what Markov process and MCMC is, however I'll add some references for that at the end of this post.
 
 ### Assumptions
 
