@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: AI Software Engineer
+role: Lead Machine Learning Engineer
 
 # Organizations/Affiliations
 organizations:
